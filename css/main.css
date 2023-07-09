@@ -1,4 +1,4 @@
-#reloj {
+/* #reloj {
     font-size: 5rem;
     font-family: 'Courier New', Courier, monospace;
     color: blue;
@@ -6,4 +6,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
+} */
+
+body {
+    background-color: rgba(69, 69, 151, 0.608);
+
+}
+#reloj {
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    background-color: goldenrod;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
